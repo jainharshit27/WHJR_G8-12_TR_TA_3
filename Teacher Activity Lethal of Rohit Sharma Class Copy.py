@@ -7,8 +7,11 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("https://raw.githubusercontent.com/jainharshit27/datasets/main/Rohit_truncated_ball_by_ball.csv")
  
 df.head()
- 
-df_Rohit = df[df["player_dismissed"] == "RG Sharma"]
+
+'''
+Code here for df_Rohit and filter the dataset with values where "player_dismissed" column
+is equal to "RG Sharma"
+'''
  
 '''
 Code here for df_Rohit_dismissed
